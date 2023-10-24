@@ -48,7 +48,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
     - name: Install Qt 5
-      run: sudo apt-get update && sudo apt-get install qt5-default -y
+      run: sudo apt-get update && sudo apt-get install qtbase5-dev -y
 
     # Initializes the CodeQL tools for scanning.
     - name: Initialize CodeQL
