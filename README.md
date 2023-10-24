@@ -1,6 +1,4 @@
-[![GitHub Actions Status](https://github.com/windware1203/code-snippet-manager/workflows/CI%20Build/badge.svg)](https://github.com/windware1203/code-snippet-manager/actions)
-
-[![Build Status](https://travis-ci.org/windware1203/code-snippet-manager.svg?branch=main)](https://travis-ci.org/windware1203/code-snippet-manager)
+[![GitHub Actions Status](https://github.com/windware1203/code-snippet-manager/workflows/CI%20Build/badge.svg)](https://github.com/windware1203/code-snippet-manager/actions) [![C/C++ CI](https://github.com/windware1203/CodeSnippetManager/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/windware1203/CodeSnippetManager/actions/workflows/c-cpp.yml) [![Build Status](https://travis-ci.org/windware1203/code-snippet-manager.svg?branch=main)](https://travis-ci.org/windware1203/code-snippet-manager)
 
 
 
