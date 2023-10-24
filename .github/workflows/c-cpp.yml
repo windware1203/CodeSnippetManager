@@ -1,23 +1,39 @@
-name: C/C++ CI
+name: C/C++ Build and Test
 
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - main
   pull_request:
-    branches: [ "main" ]
+    branches:
+      - main
 
 jobs:
   build:
-
+    name: Build and Test
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
-    - name: configure
-      run: ./configure
-    - name: make
-      run: make
-    - name: make check
-      run: make check
-    - name: make distcheck
-      run: make distcheck
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Install Qt 5
+      run: sudo apt-get update && sudo apt-get install qt5-default -y
+
+    - name: Set up C/C++ environment
+      uses: actions/setup-cpp@v2
+      with:
+        compiler: 'gcc' # or 'clang' if you prefer
+
+    - name: Build project
+      run: |
+        mkdir build
+        cd build
+        cmake .. -DCMAKE_PREFIX_PATH="/usr/lib/x86_64-linux-gnu/cmake/Qt5" # Adjust the path based on your Qt installation
+        make
+
+    - name: Test project
+      run: |
+        ctest
+
+  # You can add additional jobs for deployment, code analysis, etc. here.
