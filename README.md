@@ -25,7 +25,7 @@ To get started with the Code Snippet Manager, follow these steps:
 
 2. **Clone the Repository:**
 ```
-git clone https://github.com/yourusername/code-snippet-manager.git
+git clone https://github.com/windware1203/code-snippet-manager.git
 cd code-snippet-manager
 ```
 
