@@ -46,7 +46,7 @@ We welcome contributions to improve this Code Snippet Manager. Here's how you ca
 
 ## License
 
-This project is licensed under the [GNU General Public License, Version 3.0 (GPL-3.0)](LICENSE.md) - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the [GNU General Public License, Version 3.0 (GPL-3.0)](LICENSE).
 
 ## Acknowledgments
 
