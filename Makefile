@@ -2,6 +2,10 @@
 CXX := g++
 # Compiler flags
 CXXFLAGS := -std=c++17 -Wall
+
+find_package(Qt5Widgets REQUIRED)
+target_link_libraries(YourTarget PRIVATE Qt5::Widgets)
+
 # Qt Library flags
 QTFLAGS := $(shell pkg-config --cflags --libs Qt5Widgets)
 
