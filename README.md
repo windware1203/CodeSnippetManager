@@ -1,3 +1,10 @@
+[![GitHub Actions Status](https://github.com/windware1203/code-snippet-manager/workflows/CI%20Build/badge.svg)](https://github.com/windware1203/code-snippet-manager/actions)
+
+[![Build Status](https://travis-ci.org/windware1203/code-snippet-manager.svg?branch=main)](https://travis-ci.org/windware1203/code-snippet-manager)
+
+[![CircleCI](https://circleci.com/gh/windware1203/code-snippet-manager.svg?style=svg)](https://circleci.com/gh/windware1203/code-snippet-manager)
+
+
 # Code Snippet Manager
 
 Code Snippet Manager is a simple C++ application that allows you to organize and manage your code snippets. You can add, view, and categorize code snippets based on titles, languages, and tags.
