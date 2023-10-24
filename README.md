@@ -2,7 +2,6 @@
 
 [![Build Status](https://travis-ci.org/windware1203/code-snippet-manager.svg?branch=main)](https://travis-ci.org/windware1203/code-snippet-manager)
 
-[![CircleCI](https://circleci.com/gh/windware1203/code-snippet-manager.svg?style=svg)](https://circleci.com/gh/windware1203/code-snippet-manager)
 
 
 # Code Snippet Manager
